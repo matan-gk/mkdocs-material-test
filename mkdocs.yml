@@ -4,7 +4,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - toc.follow
+    #- toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
