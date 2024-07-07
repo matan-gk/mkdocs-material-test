@@ -1,11 +1,12 @@
-site_name: MKdocs Material test
+site_name: Documentation
 theme:
   name: material
+  logo: assets/logo.svg
   features:
     - navigation.tabs
     - navigation.sections
     - toc.follow
-    #- toc.integrate
+    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -18,11 +19,42 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
+      primary: indigo
       accent: purple
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
+      primary: indigo
       accent: lime
+
+# Page tree
+nav:
+  - Home: index.md
+  - Glossary: glossary.md
+  - Getting started:
+    - Onboarding: gettingstarted/onboarding.md
+    - Sign-up, Sign-in: gettingstarted/signup.md
+    - Inviting new users: gettingstarted/inviteusers.md
+    - Let us get to know you better: gettingstarted/gettoknowyou.md
+    - Defining entities: definingentities.md
+    - Planning to integrate: planintegrations.md
+  - integrations:
+    - introduction to integrations: integrations/intro.md
+    - Connecting integrations: integrations/connect.md
+    - Linking integration accounts to entities: integrations/linkToEntities.md
+    - Connectors: connectors.md
+    - Scanning: scanning.md
+  - settings:
+    - User management: settings/userManagement.md
+    - Entities: settings/entities.md
+    - Scan configuration: settings/scanConfig.md
+  - Frameworks:
+    - Starting an audit: frameworks/startAudit.md
+    - Controls and requirements: frameworks/controlsAndRequirements.md
+    - Audit lifecycle: frameworks/auditLifecycle.md
+    - Audit Settings: frameworks/auditSettings.md
+    - Auditor interaction: frameworks/auditorInteraction.md
+    - Monitoring and live status: frameworks/monitoring.md
+    - Custom frameworks: frameworks/customFrameworks.md 
+

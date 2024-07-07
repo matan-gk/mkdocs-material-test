@@ -1,4 +1,4 @@
-# page 2 title
+# Glossary
 
 ## another heading
 
